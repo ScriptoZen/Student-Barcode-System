@@ -45,5 +45,15 @@ namespace SAMS_v3._0
             frm.AddDatagridView(guna2DataGridView1);
             frm.ShowPrintPreviewDialog();
         }
+
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+         
+        }
     }
 }

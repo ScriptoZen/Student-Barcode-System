@@ -39,6 +39,7 @@ namespace SAMS_v3._0
             btnStop.Hide();
             btnDarlMode.Hide();
             pnlAddStudents.Hide();
+            timer1.Start();
 
             //hello
 
@@ -773,6 +774,18 @@ namespace SAMS_v3._0
             {
                 panel1.Show();
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+            DateTime dateTime = DateTime.Now;
+            this.label1.Text = dateTime.ToString();
         }
     }
 }

@@ -29,10 +29,11 @@ namespace SAMS_v3._0
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SAMS));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlButtons = new System.Windows.Forms.Panel();
             this.btnAddStudent = new Guna.UI2.WinForms.Guna2Button();
             this.btnAdmin = new Guna.UI2.WinForms.Guna2Button();
@@ -86,6 +87,8 @@ namespace SAMS_v3._0
             this.lblStudPhone = new System.Windows.Forms.Label();
             this.lblStudPic = new System.Windows.Forms.Label();
             this.lblAddNewStudTitle = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             this.pnlButtons.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nibmlogo)).BeginInit();
             this.pnlBar.SuspendLayout();
@@ -104,6 +107,7 @@ namespace SAMS_v3._0
             this.pnlButtons.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.pnlButtons.Controls.Add(this.label1);
             this.pnlButtons.Controls.Add(this.btnAddStudent);
             this.pnlButtons.Controls.Add(this.btnAdmin);
             this.pnlButtons.Controls.Add(this.btnReports);
@@ -389,8 +393,8 @@ namespace SAMS_v3._0
             // 
             // ShowRecords
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.ShowRecords.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.White;
+            this.ShowRecords.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
             this.ShowRecords.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -399,23 +403,23 @@ namespace SAMS_v3._0
             this.ShowRecords.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ShowRecords.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.ShowRecords.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ShowRecords.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ShowRecords.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
             this.ShowRecords.ColumnHeadersHeight = 4;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ShowRecords.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle27.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ShowRecords.DefaultCellStyle = dataGridViewCellStyle27;
             this.ShowRecords.EnableHeadersVisualStyles = false;
             this.ShowRecords.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.ShowRecords.Location = new System.Drawing.Point(19, 332);
@@ -455,7 +459,7 @@ namespace SAMS_v3._0
             this.linkViewAll.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.linkViewAll.Location = new System.Drawing.Point(183, 310);
             this.linkViewAll.Name = "linkViewAll";
-            this.linkViewAll.Size = new System.Drawing.Size(78, 24);
+            this.linkViewAll.Size = new System.Drawing.Size(58, 18);
             this.linkViewAll.TabIndex = 6;
             this.linkViewAll.TabStop = true;
             this.linkViewAll.Text = "View All";
@@ -468,7 +472,7 @@ namespace SAMS_v3._0
             this.lblAtList.ForeColor = System.Drawing.Color.White;
             this.lblAtList.Location = new System.Drawing.Point(14, 271);
             this.lblAtList.Name = "lblAtList";
-            this.lblAtList.Size = new System.Drawing.Size(221, 72);
+            this.lblAtList.Size = new System.Drawing.Size(176, 58);
             this.lblAtList.TabIndex = 5;
             this.lblAtList.Text = "Today\r\nAttendance List\r\n";
             // 
@@ -494,7 +498,7 @@ namespace SAMS_v3._0
             this.CmbCamera.FormattingEnabled = true;
             this.CmbCamera.Location = new System.Drawing.Point(17, 18);
             this.CmbCamera.Name = "CmbCamera";
-            this.CmbCamera.Size = new System.Drawing.Size(450, 38);
+            this.CmbCamera.Size = new System.Drawing.Size(450, 33);
             this.CmbCamera.Sorted = true;
             this.CmbCamera.TabIndex = 1;
             this.CmbCamera.Text = "Select Device";
@@ -1061,7 +1065,7 @@ namespace SAMS_v3._0
             this.lblStudBatch.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblStudBatch.Location = new System.Drawing.Point(157, 562);
             this.lblStudBatch.Name = "lblStudBatch";
-            this.lblStudBatch.Size = new System.Drawing.Size(282, 46);
+            this.lblStudBatch.Size = new System.Drawing.Size(227, 37);
             this.lblStudBatch.TabIndex = 13;
             this.lblStudBatch.Text = "Student Batch:";
             this.lblStudBatch.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1074,7 +1078,7 @@ namespace SAMS_v3._0
             this.lblStudID.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblStudID.Location = new System.Drawing.Point(157, 84);
             this.lblStudID.Name = "lblStudID";
-            this.lblStudID.Size = new System.Drawing.Size(218, 46);
+            this.lblStudID.Size = new System.Drawing.Size(176, 37);
             this.lblStudID.TabIndex = 12;
             this.lblStudID.Text = "Student ID:";
             this.lblStudID.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -1087,7 +1091,7 @@ namespace SAMS_v3._0
             this.lblStudNIC.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblStudNIC.Location = new System.Drawing.Point(157, 172);
             this.lblStudNIC.Name = "lblStudNIC";
-            this.lblStudNIC.Size = new System.Drawing.Size(247, 46);
+            this.lblStudNIC.Size = new System.Drawing.Size(200, 37);
             this.lblStudNIC.TabIndex = 11;
             this.lblStudNIC.Text = "Student NIC:";
             this.lblStudNIC.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -1100,7 +1104,7 @@ namespace SAMS_v3._0
             this.lblStudName.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblStudName.Location = new System.Drawing.Point(157, 268);
             this.lblStudName.Name = "lblStudName";
-            this.lblStudName.Size = new System.Drawing.Size(285, 46);
+            this.lblStudName.Size = new System.Drawing.Size(231, 37);
             this.lblStudName.TabIndex = 10;
             this.lblStudName.Text = "Student Name:";
             this.lblStudName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1113,7 +1117,7 @@ namespace SAMS_v3._0
             this.lblStudAddress.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblStudAddress.Location = new System.Drawing.Point(157, 360);
             this.lblStudAddress.Name = "lblStudAddress";
-            this.lblStudAddress.Size = new System.Drawing.Size(325, 46);
+            this.lblStudAddress.Size = new System.Drawing.Size(263, 37);
             this.lblStudAddress.TabIndex = 9;
             this.lblStudAddress.Text = "Student Address:";
             this.lblStudAddress.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1126,7 +1130,7 @@ namespace SAMS_v3._0
             this.lblStudPhone.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblStudPhone.Location = new System.Drawing.Point(157, 461);
             this.lblStudPhone.Name = "lblStudPhone";
-            this.lblStudPhone.Size = new System.Drawing.Size(358, 46);
+            this.lblStudPhone.Size = new System.Drawing.Size(288, 37);
             this.lblStudPhone.TabIndex = 8;
             this.lblStudPhone.Text = "Student Phone No:";
             this.lblStudPhone.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1139,7 +1143,7 @@ namespace SAMS_v3._0
             this.lblStudPic.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblStudPic.Location = new System.Drawing.Point(157, 664);
             this.lblStudPic.Name = "lblStudPic";
-            this.lblStudPic.Size = new System.Drawing.Size(304, 46);
+            this.lblStudPic.Size = new System.Drawing.Size(244, 37);
             this.lblStudPic.TabIndex = 7;
             this.lblStudPic.Text = "Student Picture:";
             this.lblStudPic.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1151,13 +1155,29 @@ namespace SAMS_v3._0
             this.lblAddNewStudTitle.ForeColor = System.Drawing.Color.Silver;
             this.lblAddNewStudTitle.Location = new System.Drawing.Point(12, 18);
             this.lblAddNewStudTitle.Name = "lblAddNewStudTitle";
-            this.lblAddNewStudTitle.Size = new System.Drawing.Size(413, 54);
+            this.lblAddNewStudTitle.Size = new System.Drawing.Size(335, 42);
             this.lblAddNewStudTitle.TabIndex = 6;
             this.lblAddNewStudTitle.Text = "Add  New Student";
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Roboto Condensed", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label1.Location = new System.Drawing.Point(40, 106);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(57, 23);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // SAMS
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
             this.ClientSize = new System.Drawing.Size(1409, 802);
@@ -1172,6 +1192,7 @@ namespace SAMS_v3._0
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.SAMS_Load);
             this.pnlButtons.ResumeLayout(false);
+            this.pnlButtons.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nibmlogo)).EndInit();
             this.pnlBar.ResumeLayout(false);
             this.pnlDashboard.ResumeLayout(false);
@@ -1243,6 +1264,8 @@ namespace SAMS_v3._0
         private Guna.UI2.WinForms.Guna2PictureBox picStude;
         private Guna.UI2.WinForms.Guna2GradientButton btnAddStudntData;
         private Guna.UI2.WinForms.Guna2GradientButton btnCamcelStudData;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

@@ -69,3 +69,29 @@ E:\codes\Student-Barcode-System\obj\Debug\SAMS v3.0.exe
 E:\codes\Student-Barcode-System\obj\Debug\SAMS v3.0.pdb
 E:\codes\Student-Barcode-System\bin\Debug\EasyHTMLReports.dll
 E:\codes\Student-Barcode-System\obj\Debug\SAMS v3.1.csprojAssemblyReference.cache
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\SAMS v3.0.exe.config
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\SAMS v3.0.exe
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\SAMS v3.0.pdb
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\AForge.dll
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\AForge.Video.DirectShow.dll
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\AForge.Video.dll
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\EasyHTMLReports.dll
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\MySql.Data.dll
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\zxing.dll
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\zxing.presentation.dll
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\AForge.xml
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\AForge.Video.xml
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\AForge.Video.DirectShow.xml
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\zxing.xml
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\zxing.presentation.xml
+D:\Downloads\SAMS v3.1\SAMS v3.1\obj\Debug\SAMS v3.1.csprojAssemblyReference.cache
+D:\Downloads\SAMS v3.1\SAMS v3.1\obj\Debug\SAMS_v3._0.addstudent.resources
+D:\Downloads\SAMS v3.1\SAMS v3.1\obj\Debug\SAMS_v3._0.SAMS.resources
+D:\Downloads\SAMS v3.1\SAMS v3.1\obj\Debug\SAMS_v3._0.Properties.Resources.resources
+D:\Downloads\SAMS v3.1\SAMS v3.1\obj\Debug\SAMS_v3._0.viewRecords.resources
+D:\Downloads\SAMS v3.1\SAMS v3.1\obj\Debug\SAMS v3.1.csproj.GenerateResource.cache
+D:\Downloads\SAMS v3.1\SAMS v3.1\obj\Debug\SAMS v3.1.csproj.CoreCompileInputs.cache
+D:\Downloads\SAMS v3.1\SAMS v3.1\obj\Debug\SAMS v3.1.csproj.CopyComplete
+D:\Downloads\SAMS v3.1\SAMS v3.1\obj\Debug\SAMS v3.0.exe
+D:\Downloads\SAMS v3.1\SAMS v3.1\obj\Debug\SAMS v3.0.pdb
+D:\Downloads\SAMS v3.1\SAMS v3.1\bin\Debug\Guna.UI2.dll
