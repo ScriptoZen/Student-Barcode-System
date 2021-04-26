@@ -46,3 +46,25 @@ C:\Users\acer\Downloads\SAMS v3.1\SAMS v3.1\obj\Debug\SAMS v3.1.csproj.CopyCompl
 C:\Users\acer\Downloads\SAMS v3.1\SAMS v3.1\obj\Debug\SAMS v3.0.exe
 C:\Users\acer\Downloads\SAMS v3.1\SAMS v3.1\obj\Debug\SAMS v3.0.pdb
 C:\Users\acer\Downloads\SAMS v3.1\SAMS v3.1\obj\Debug\SAMS v3.1.csprojAssemblyReference.cache
+E:\codes\Student-Barcode-System\bin\Debug\SAMS v3.0.exe.config
+E:\codes\Student-Barcode-System\bin\Debug\SAMS v3.0.exe
+E:\codes\Student-Barcode-System\bin\Debug\SAMS v3.0.pdb
+E:\codes\Student-Barcode-System\bin\Debug\AForge.dll
+E:\codes\Student-Barcode-System\bin\Debug\AForge.Video.DirectShow.dll
+E:\codes\Student-Barcode-System\bin\Debug\AForge.Video.dll
+E:\codes\Student-Barcode-System\bin\Debug\zxing.dll
+E:\codes\Student-Barcode-System\bin\Debug\zxing.presentation.dll
+E:\codes\Student-Barcode-System\bin\Debug\AForge.xml
+E:\codes\Student-Barcode-System\bin\Debug\AForge.Video.xml
+E:\codes\Student-Barcode-System\bin\Debug\AForge.Video.DirectShow.xml
+E:\codes\Student-Barcode-System\bin\Debug\zxing.xml
+E:\codes\Student-Barcode-System\bin\Debug\zxing.presentation.xml
+E:\codes\Student-Barcode-System\obj\Debug\SAMS_v3._0.addstudent.resources
+E:\codes\Student-Barcode-System\obj\Debug\SAMS_v3._0.SAMS.resources
+E:\codes\Student-Barcode-System\obj\Debug\SAMS_v3._0.Properties.Resources.resources
+E:\codes\Student-Barcode-System\obj\Debug\SAMS_v3._0.viewRecords.resources
+E:\codes\Student-Barcode-System\obj\Debug\SAMS v3.1.csproj.GenerateResource.cache
+E:\codes\Student-Barcode-System\obj\Debug\SAMS v3.1.csproj.CopyComplete
+E:\codes\Student-Barcode-System\obj\Debug\SAMS v3.0.exe
+E:\codes\Student-Barcode-System\obj\Debug\SAMS v3.0.pdb
+E:\codes\Student-Barcode-System\bin\Debug\EasyHTMLReports.dll
