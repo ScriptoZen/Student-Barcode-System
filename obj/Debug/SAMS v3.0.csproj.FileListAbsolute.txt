@@ -1,0 +1,37 @@
+C:\Users\acer\Desktop\SAMS v3.0\bin\Debug\SAMS v3.0.exe.config
+C:\Users\acer\Desktop\SAMS v3.0\bin\Debug\SAMS v3.0.exe
+C:\Users\acer\Desktop\SAMS v3.0\bin\Debug\SAMS v3.0.pdb
+C:\Users\acer\Desktop\SAMS v3.0\bin\Debug\Guna.UI2.dll
+C:\Users\acer\Desktop\SAMS v3.0\obj\Debug\SAMS_v3._0.SAMS.resources
+C:\Users\acer\Desktop\SAMS v3.0\obj\Debug\SAMS_v3._0.Properties.Resources.resources
+C:\Users\acer\Desktop\SAMS v3.0\obj\Debug\SAMS_v3._0.viewRecords.resources
+C:\Users\acer\Desktop\SAMS v3.0\obj\Debug\SAMS v3.0.csproj.GenerateResource.cache
+C:\Users\acer\Desktop\SAMS v3.0\obj\Debug\SAMS v3.0.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\SAMS v3.0\obj\Debug\SAMS v3.0.csproj.CopyComplete
+C:\Users\acer\Desktop\SAMS v3.0\obj\Debug\SAMS v3.0.exe
+C:\Users\acer\Desktop\SAMS v3.0\obj\Debug\SAMS v3.0.pdb
+C:\Users\acer\Desktop\SAMS v3.0\obj\Debug\SAMS v3.0.csprojAssemblyReference.cache
+C:\Users\sachi\Desktop\SAMS v3.0\obj\Debug\SAMS v3.0.csprojAssemblyReference.cache
+C:\Users\sachi\Desktop\SAMS v3.0\obj\Debug\SAMS_v3._0.SAMS.resources
+C:\Users\sachi\Desktop\SAMS v3.0\obj\Debug\SAMS_v3._0.Properties.Resources.resources
+C:\Users\sachi\Desktop\SAMS v3.0\obj\Debug\SAMS_v3._0.viewRecords.resources
+C:\Users\sachi\Desktop\SAMS v3.0\obj\Debug\SAMS v3.0.csproj.GenerateResource.cache
+C:\Users\sachi\Desktop\SAMS v3.0\obj\Debug\SAMS v3.0.csproj.CoreCompileInputs.cache
+C:\Users\sachi\Desktop\SAMS v3.0\obj\Debug\SAMS v3.0.exe
+C:\Users\sachi\Desktop\SAMS v3.0\obj\Debug\SAMS v3.0.pdb
+C:\Users\sachi\Desktop\SAMS v3.0\bin\Debug\SAMS v3.0.exe.config
+C:\Users\sachi\Desktop\SAMS v3.0\bin\Debug\SAMS v3.0.exe
+C:\Users\sachi\Desktop\SAMS v3.0\bin\Debug\SAMS v3.0.pdb
+C:\Users\sachi\Desktop\SAMS v3.0\bin\Debug\AForge.dll
+C:\Users\sachi\Desktop\SAMS v3.0\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\sachi\Desktop\SAMS v3.0\bin\Debug\AForge.Video.dll
+C:\Users\sachi\Desktop\SAMS v3.0\bin\Debug\MySql.Data.dll
+C:\Users\sachi\Desktop\SAMS v3.0\bin\Debug\zxing.dll
+C:\Users\sachi\Desktop\SAMS v3.0\bin\Debug\zxing.presentation.dll
+C:\Users\sachi\Desktop\SAMS v3.0\bin\Debug\AForge.xml
+C:\Users\sachi\Desktop\SAMS v3.0\bin\Debug\AForge.Video.xml
+C:\Users\sachi\Desktop\SAMS v3.0\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\sachi\Desktop\SAMS v3.0\bin\Debug\zxing.xml
+C:\Users\sachi\Desktop\SAMS v3.0\bin\Debug\zxing.presentation.xml
+C:\Users\sachi\Desktop\SAMS v3.0\obj\Debug\SAMS v3.0.csproj.CopyComplete
+C:\Users\sachi\Desktop\SAMS v3.0\obj\Debug\SAMS_v3._0.addstudent.resources
