@@ -122,10 +122,10 @@ namespace SAMS_v3._0
             this.btnAddStudent.CheckedState.Parent = this.btnAddStudent;
             this.btnAddStudent.CustomImages.Parent = this.btnAddStudent;
             this.btnAddStudent.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
-            this.btnAddStudent.Font = new System.Drawing.Font("Roboto Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddStudent.ForeColor = System.Drawing.Color.Silver;
             this.btnAddStudent.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(65)))), ((int)(((byte)(137)))));
-            this.btnAddStudent.HoverState.Font = new System.Drawing.Font("Roboto Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddStudent.HoverState.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddStudent.HoverState.ForeColor = System.Drawing.Color.White;
             this.btnAddStudent.HoverState.Image = global::SAMS_v3._0.Properties.Resources.Add_student_dark;
             this.btnAddStudent.HoverState.Parent = this.btnAddStudent;
@@ -150,7 +150,7 @@ namespace SAMS_v3._0
             this.btnAdmin.CheckedState.Parent = this.btnAdmin;
             this.btnAdmin.CustomImages.Parent = this.btnAdmin;
             this.btnAdmin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
-            this.btnAdmin.Font = new System.Drawing.Font("Roboto Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdmin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnAdmin.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(65)))), ((int)(((byte)(137)))));
             this.btnAdmin.HoverState.ForeColor = System.Drawing.Color.White;
@@ -175,10 +175,10 @@ namespace SAMS_v3._0
             this.btnReports.CheckedState.Parent = this.btnReports;
             this.btnReports.CustomImages.Parent = this.btnReports;
             this.btnReports.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
-            this.btnReports.Font = new System.Drawing.Font("Roboto Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReports.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReports.ForeColor = System.Drawing.Color.Silver;
             this.btnReports.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(65)))), ((int)(((byte)(137)))));
-            this.btnReports.HoverState.Font = new System.Drawing.Font("Roboto Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReports.HoverState.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReports.HoverState.ForeColor = System.Drawing.Color.White;
             this.btnReports.HoverState.Image = global::SAMS_v3._0.Properties.Resources.repotslogo_Dark;
             this.btnReports.HoverState.Parent = this.btnReports;
@@ -194,6 +194,7 @@ namespace SAMS_v3._0
             this.btnReports.Text = "Reports";
             this.btnReports.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnReports.TextOffset = new System.Drawing.Point(50, 0);
+            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
             // 
             // btnDashboard
             // 
@@ -202,10 +203,10 @@ namespace SAMS_v3._0
             this.btnDashboard.CheckedState.Parent = this.btnDashboard;
             this.btnDashboard.CustomImages.Parent = this.btnDashboard;
             this.btnDashboard.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
-            this.btnDashboard.Font = new System.Drawing.Font("Roboto Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDashboard.ForeColor = System.Drawing.Color.Silver;
             this.btnDashboard.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(65)))), ((int)(((byte)(137)))));
-            this.btnDashboard.HoverState.Font = new System.Drawing.Font("Roboto Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboard.HoverState.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDashboard.HoverState.ForeColor = System.Drawing.Color.White;
             this.btnDashboard.HoverState.Image = global::SAMS_v3._0.Properties.Resources.Dashboad_logo_dark;
             this.btnDashboard.HoverState.Parent = this.btnDashboard;
@@ -356,7 +357,7 @@ namespace SAMS_v3._0
             this.btnStop.CustomImages.Parent = this.btnStop;
             this.btnStop.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(13)))), ((int)(((byte)(40)))));
             this.btnStop.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnStop.Font = new System.Drawing.Font("Roboto Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStop.ForeColor = System.Drawing.Color.White;
             this.btnStop.HoverState.Parent = this.btnStop;
             this.btnStop.Location = new System.Drawing.Point(473, 18);
@@ -375,7 +376,7 @@ namespace SAMS_v3._0
             this.btnStart.CustomImages.Parent = this.btnStart;
             this.btnStart.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(65)))), ((int)(((byte)(137)))));
             this.btnStart.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(92)))), ((int)(((byte)(207)))));
-            this.btnStart.Font = new System.Drawing.Font("Roboto Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStart.ForeColor = System.Drawing.Color.White;
             this.btnStart.HoverState.Parent = this.btnStart;
             this.btnStart.Location = new System.Drawing.Point(473, 18);
@@ -400,7 +401,7 @@ namespace SAMS_v3._0
             this.ShowRecords.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -409,7 +410,7 @@ namespace SAMS_v3._0
             this.ShowRecords.ColumnHeadersHeight = 4;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
@@ -434,14 +435,14 @@ namespace SAMS_v3._0
             this.ShowRecords.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.ShowRecords.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.ShowRecords.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.ShowRecords.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShowRecords.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ShowRecords.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.ShowRecords.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.ShowRecords.ThemeStyle.HeaderStyle.Height = 4;
             this.ShowRecords.ThemeStyle.ReadOnly = false;
             this.ShowRecords.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.ShowRecords.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.ShowRecords.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShowRecords.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ShowRecords.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.ShowRecords.ThemeStyle.RowsStyle.Height = 22;
             this.ShowRecords.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
@@ -454,7 +455,7 @@ namespace SAMS_v3._0
             this.linkViewAll.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.linkViewAll.Location = new System.Drawing.Point(183, 310);
             this.linkViewAll.Name = "linkViewAll";
-            this.linkViewAll.Size = new System.Drawing.Size(54, 18);
+            this.linkViewAll.Size = new System.Drawing.Size(78, 24);
             this.linkViewAll.TabIndex = 6;
             this.linkViewAll.TabStop = true;
             this.linkViewAll.Text = "View All";
@@ -463,11 +464,11 @@ namespace SAMS_v3._0
             // lblAtList
             // 
             this.lblAtList.AutoSize = true;
-            this.lblAtList.Font = new System.Drawing.Font("Roboto Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAtList.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAtList.ForeColor = System.Drawing.Color.White;
             this.lblAtList.Location = new System.Drawing.Point(14, 271);
             this.lblAtList.Name = "lblAtList";
-            this.lblAtList.Size = new System.Drawing.Size(163, 58);
+            this.lblAtList.Size = new System.Drawing.Size(221, 72);
             this.lblAtList.TabIndex = 5;
             this.lblAtList.Text = "Today\r\nAttendance List\r\n";
             // 
@@ -488,12 +489,12 @@ namespace SAMS_v3._0
             this.CmbCamera.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.CmbCamera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.CmbCamera.Font = new System.Drawing.Font("Roboto Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CmbCamera.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmbCamera.ForeColor = System.Drawing.Color.White;
             this.CmbCamera.FormattingEnabled = true;
             this.CmbCamera.Location = new System.Drawing.Point(17, 18);
             this.CmbCamera.Name = "CmbCamera";
-            this.CmbCamera.Size = new System.Drawing.Size(450, 33);
+            this.CmbCamera.Size = new System.Drawing.Size(450, 38);
             this.CmbCamera.Sorted = true;
             this.CmbCamera.TabIndex = 1;
             this.CmbCamera.Text = "Select Device";
@@ -538,7 +539,7 @@ namespace SAMS_v3._0
             this.btnCancelAddData.CustomImages.Parent = this.btnCancelAddData;
             this.btnCancelAddData.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(13)))), ((int)(((byte)(40)))));
             this.btnCancelAddData.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnCancelAddData.Font = new System.Drawing.Font("Roboto Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelAddData.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelAddData.ForeColor = System.Drawing.Color.White;
             this.btnCancelAddData.HoverState.Parent = this.btnCancelAddData;
             this.btnCancelAddData.Location = new System.Drawing.Point(3, 662);
@@ -558,7 +559,7 @@ namespace SAMS_v3._0
             this.btnAddData.CustomImages.Parent = this.btnAddData;
             this.btnAddData.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(65)))), ((int)(((byte)(137)))));
             this.btnAddData.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(92)))), ((int)(((byte)(207)))));
-            this.btnAddData.Font = new System.Drawing.Font("Roboto Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddData.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddData.ForeColor = System.Drawing.Color.White;
             this.btnAddData.HoverState.Parent = this.btnAddData;
             this.btnAddData.Location = new System.Drawing.Point(4, 575);
@@ -584,7 +585,7 @@ namespace SAMS_v3._0
             this.txtid.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.txtid.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtid.FocusedState.Parent = this.txtid;
-            this.txtid.Font = new System.Drawing.Font("Roboto Condensed", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtid.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtid.ForeColor = System.Drawing.Color.White;
             this.txtid.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtid.HoverState.Parent = this.txtid;
@@ -616,7 +617,7 @@ namespace SAMS_v3._0
             this.txtbatch.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.txtbatch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtbatch.FocusedState.Parent = this.txtbatch;
-            this.txtbatch.Font = new System.Drawing.Font("Roboto Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbatch.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbatch.ForeColor = System.Drawing.Color.White;
             this.txtbatch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtbatch.HoverState.Parent = this.txtbatch;
@@ -648,7 +649,7 @@ namespace SAMS_v3._0
             this.txtnic.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.txtnic.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtnic.FocusedState.Parent = this.txtnic;
-            this.txtnic.Font = new System.Drawing.Font("Roboto Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnic.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnic.ForeColor = System.Drawing.Color.White;
             this.txtnic.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtnic.HoverState.Parent = this.txtnic;
@@ -681,7 +682,7 @@ namespace SAMS_v3._0
             this.txtname.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.txtname.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtname.FocusedState.Parent = this.txtname;
-            this.txtname.Font = new System.Drawing.Font("Roboto Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtname.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtname.ForeColor = System.Drawing.Color.White;
             this.txtname.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtname.HoverState.Parent = this.txtname;
@@ -756,7 +757,7 @@ namespace SAMS_v3._0
             this.btnCamcelStudData.CustomImages.Parent = this.btnCamcelStudData;
             this.btnCamcelStudData.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(13)))), ((int)(((byte)(40)))));
             this.btnCamcelStudData.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnCamcelStudData.Font = new System.Drawing.Font("Roboto Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCamcelStudData.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCamcelStudData.ForeColor = System.Drawing.Color.White;
             this.btnCamcelStudData.HoverState.Parent = this.btnCamcelStudData;
             this.btnCamcelStudData.Location = new System.Drawing.Point(934, 611);
@@ -775,7 +776,7 @@ namespace SAMS_v3._0
             this.btnAddStudntData.CustomImages.Parent = this.btnAddStudntData;
             this.btnAddStudntData.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(65)))), ((int)(((byte)(137)))));
             this.btnAddStudntData.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(92)))), ((int)(((byte)(207)))));
-            this.btnAddStudntData.Font = new System.Drawing.Font("Roboto Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddStudntData.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddStudntData.ForeColor = System.Drawing.Color.White;
             this.btnAddStudntData.HoverState.Parent = this.btnAddStudntData;
             this.btnAddStudntData.Location = new System.Drawing.Point(640, 611);
@@ -806,10 +807,10 @@ namespace SAMS_v3._0
             this.btnChooseImage.CheckedState.Parent = this.btnChooseImage;
             this.btnChooseImage.CustomImages.Parent = this.btnChooseImage;
             this.btnChooseImage.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.btnChooseImage.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChooseImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChooseImage.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnChooseImage.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(65)))), ((int)(((byte)(137)))));
-            this.btnChooseImage.HoverState.Font = new System.Drawing.Font("Roboto Condensed", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChooseImage.HoverState.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChooseImage.HoverState.ForeColor = System.Drawing.Color.White;
             this.btnChooseImage.HoverState.Parent = this.btnChooseImage;
             this.btnChooseImage.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -892,7 +893,7 @@ namespace SAMS_v3._0
             this.txtStudentID.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.txtStudentID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtStudentID.FocusedState.Parent = this.txtStudentID;
-            this.txtStudentID.Font = new System.Drawing.Font("Roboto Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStudentID.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtStudentID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtStudentID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtStudentID.HoverState.Parent = this.txtStudentID;
@@ -921,7 +922,7 @@ namespace SAMS_v3._0
             this.txtStudentBatch.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.txtStudentBatch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtStudentBatch.FocusedState.Parent = this.txtStudentBatch;
-            this.txtStudentBatch.Font = new System.Drawing.Font("Roboto Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStudentBatch.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtStudentBatch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtStudentBatch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtStudentBatch.HoverState.Parent = this.txtStudentBatch;
@@ -950,7 +951,7 @@ namespace SAMS_v3._0
             this.txtStudentPhone.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.txtStudentPhone.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtStudentPhone.FocusedState.Parent = this.txtStudentPhone;
-            this.txtStudentPhone.Font = new System.Drawing.Font("Roboto Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStudentPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtStudentPhone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtStudentPhone.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtStudentPhone.HoverState.Parent = this.txtStudentPhone;
@@ -979,7 +980,7 @@ namespace SAMS_v3._0
             this.txtStudentAddress.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.txtStudentAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtStudentAddress.FocusedState.Parent = this.txtStudentAddress;
-            this.txtStudentAddress.Font = new System.Drawing.Font("Roboto Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStudentAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtStudentAddress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtStudentAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtStudentAddress.HoverState.Parent = this.txtStudentAddress;
@@ -1008,7 +1009,7 @@ namespace SAMS_v3._0
             this.txtStudentName.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.txtStudentName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtStudentName.FocusedState.Parent = this.txtStudentName;
-            this.txtStudentName.Font = new System.Drawing.Font("Roboto Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStudentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtStudentName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtStudentName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtStudentName.HoverState.Parent = this.txtStudentName;
@@ -1037,7 +1038,7 @@ namespace SAMS_v3._0
             this.txtStudentNIC.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.txtStudentNIC.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtStudentNIC.FocusedState.Parent = this.txtStudentNIC;
-            this.txtStudentNIC.Font = new System.Drawing.Font("Roboto Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStudentNIC.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtStudentNIC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtStudentNIC.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtStudentNIC.HoverState.Parent = this.txtStudentNIC;
@@ -1056,11 +1057,11 @@ namespace SAMS_v3._0
             // 
             this.lblStudBatch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblStudBatch.AutoSize = true;
-            this.lblStudBatch.Font = new System.Drawing.Font("Roboto Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStudBatch.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudBatch.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblStudBatch.Location = new System.Drawing.Point(157, 562);
             this.lblStudBatch.Name = "lblStudBatch";
-            this.lblStudBatch.Size = new System.Drawing.Size(198, 38);
+            this.lblStudBatch.Size = new System.Drawing.Size(282, 46);
             this.lblStudBatch.TabIndex = 13;
             this.lblStudBatch.Text = "Student Batch:";
             this.lblStudBatch.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1069,11 +1070,11 @@ namespace SAMS_v3._0
             // 
             this.lblStudID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblStudID.AutoSize = true;
-            this.lblStudID.Font = new System.Drawing.Font("Roboto Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStudID.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudID.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblStudID.Location = new System.Drawing.Point(157, 84);
             this.lblStudID.Name = "lblStudID";
-            this.lblStudID.Size = new System.Drawing.Size(153, 38);
+            this.lblStudID.Size = new System.Drawing.Size(218, 46);
             this.lblStudID.TabIndex = 12;
             this.lblStudID.Text = "Student ID:";
             this.lblStudID.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -1082,11 +1083,11 @@ namespace SAMS_v3._0
             // 
             this.lblStudNIC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblStudNIC.AutoSize = true;
-            this.lblStudNIC.Font = new System.Drawing.Font("Roboto Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStudNIC.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudNIC.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblStudNIC.Location = new System.Drawing.Point(157, 172);
             this.lblStudNIC.Name = "lblStudNIC";
-            this.lblStudNIC.Size = new System.Drawing.Size(173, 38);
+            this.lblStudNIC.Size = new System.Drawing.Size(247, 46);
             this.lblStudNIC.TabIndex = 11;
             this.lblStudNIC.Text = "Student NIC:";
             this.lblStudNIC.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -1095,11 +1096,11 @@ namespace SAMS_v3._0
             // 
             this.lblStudName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblStudName.AutoSize = true;
-            this.lblStudName.Font = new System.Drawing.Font("Roboto Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStudName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudName.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblStudName.Location = new System.Drawing.Point(157, 268);
             this.lblStudName.Name = "lblStudName";
-            this.lblStudName.Size = new System.Drawing.Size(201, 38);
+            this.lblStudName.Size = new System.Drawing.Size(285, 46);
             this.lblStudName.TabIndex = 10;
             this.lblStudName.Text = "Student Name:";
             this.lblStudName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1108,11 +1109,11 @@ namespace SAMS_v3._0
             // 
             this.lblStudAddress.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblStudAddress.AutoSize = true;
-            this.lblStudAddress.Font = new System.Drawing.Font("Roboto Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStudAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudAddress.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblStudAddress.Location = new System.Drawing.Point(157, 360);
             this.lblStudAddress.Name = "lblStudAddress";
-            this.lblStudAddress.Size = new System.Drawing.Size(232, 38);
+            this.lblStudAddress.Size = new System.Drawing.Size(325, 46);
             this.lblStudAddress.TabIndex = 9;
             this.lblStudAddress.Text = "Student Address:";
             this.lblStudAddress.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1121,11 +1122,11 @@ namespace SAMS_v3._0
             // 
             this.lblStudPhone.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblStudPhone.AutoSize = true;
-            this.lblStudPhone.Font = new System.Drawing.Font("Roboto Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStudPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudPhone.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblStudPhone.Location = new System.Drawing.Point(157, 461);
             this.lblStudPhone.Name = "lblStudPhone";
-            this.lblStudPhone.Size = new System.Drawing.Size(249, 38);
+            this.lblStudPhone.Size = new System.Drawing.Size(358, 46);
             this.lblStudPhone.TabIndex = 8;
             this.lblStudPhone.Text = "Student Phone No:";
             this.lblStudPhone.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1134,11 +1135,11 @@ namespace SAMS_v3._0
             // 
             this.lblStudPic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblStudPic.AutoSize = true;
-            this.lblStudPic.Font = new System.Drawing.Font("Roboto Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStudPic.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudPic.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblStudPic.Location = new System.Drawing.Point(157, 664);
             this.lblStudPic.Name = "lblStudPic";
-            this.lblStudPic.Size = new System.Drawing.Size(216, 38);
+            this.lblStudPic.Size = new System.Drawing.Size(304, 46);
             this.lblStudPic.TabIndex = 7;
             this.lblStudPic.Text = "Student Picture:";
             this.lblStudPic.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1146,23 +1147,23 @@ namespace SAMS_v3._0
             // lblAddNewStudTitle
             // 
             this.lblAddNewStudTitle.AutoSize = true;
-            this.lblAddNewStudTitle.Font = new System.Drawing.Font("Roboto Condensed", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddNewStudTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAddNewStudTitle.ForeColor = System.Drawing.Color.Silver;
             this.lblAddNewStudTitle.Location = new System.Drawing.Point(12, 18);
             this.lblAddNewStudTitle.Name = "lblAddNewStudTitle";
-            this.lblAddNewStudTitle.Size = new System.Drawing.Size(283, 44);
+            this.lblAddNewStudTitle.Size = new System.Drawing.Size(413, 54);
             this.lblAddNewStudTitle.TabIndex = 6;
             this.lblAddNewStudTitle.Text = "Add  New Student";
             // 
             // SAMS
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
             this.ClientSize = new System.Drawing.Size(1409, 802);
             this.Controls.Add(this.pnlAddStudents);
             this.Controls.Add(this.pnlMain);
-            this.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "SAMS";

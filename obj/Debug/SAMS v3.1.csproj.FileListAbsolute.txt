@@ -68,3 +68,4 @@ E:\codes\Student-Barcode-System\obj\Debug\SAMS v3.1.csproj.CopyComplete
 E:\codes\Student-Barcode-System\obj\Debug\SAMS v3.0.exe
 E:\codes\Student-Barcode-System\obj\Debug\SAMS v3.0.pdb
 E:\codes\Student-Barcode-System\bin\Debug\EasyHTMLReports.dll
+E:\codes\Student-Barcode-System\obj\Debug\SAMS v3.1.csprojAssemblyReference.cache

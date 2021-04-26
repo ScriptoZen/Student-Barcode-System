@@ -760,6 +760,19 @@ namespace SAMS_v3._0
             CmbCamera.SelectedIndex = 0;
         }
 
-        
+        private void btnReports_Click(object sender, EventArgs e)
+        {
+            if (pnlDashboard.Visible)
+            {
+                pnlDashboard.Hide();
+                panel1.Show();
+
+
+            }
+            else
+            {
+                panel1.Show();
+            }
+        }
     }
 }
